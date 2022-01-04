@@ -1,7 +1,7 @@
 import React from 'react';
 
 class Square extends React.Component {
-
+    //Square는 게임의 상태를 유지할 필요가 없기 때문에 constructor 삭제
     render() {
         return(
             // arrow function
